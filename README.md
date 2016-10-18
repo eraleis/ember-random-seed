@@ -1,27 +1,34 @@
 # Ember-random-seed
 
-This README outlines the details of collaborating on this Ember addon.
+This addon allow you to generate reproductible random numbers:
 
+Basic usage (Generate a number between 0 and 1):
+``` js
+let seed = 4;
+let myRandomSeededNumber = randomSeed(seed);
+```
+
+You can also use options to generate a number with custom boundaries, for instance, if we want to generate a number between 5 and 100:
+``` js
+let seed = 4;
+let options = {
+  min: 5,
+  max: 100
+}
+
+let myRandomSeededNumber = randomSeed(seed, options);
+```
+
+```  js
+import randomSeed from 'ember-random-seed/helpers/random-seed';
+
+```
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-random-seed`
-* `npm install`
-* `bower install`
 
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
+* `git clone https://github.com/vatourni/ember-random-seed.git`
+* `cd ember-random-seed`
 * `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
