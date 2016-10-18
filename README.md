@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/vatourni/ember-random-seed.png)](https://codeclimate.com/github/vatourni/ember-random-seed)
 # ember-random-seed
 
 This addon allow you to generate reproductible random numbers
