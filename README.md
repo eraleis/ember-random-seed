@@ -4,7 +4,17 @@ This addon allow you to generate reproductible random numbers
 
 ## Installation
 
-* `ember install ember-random-seed`
+##### Installation with Ember CLI (Recommended)
+
+``` bash
+ember install ember-random-seed
+```
+
+##### Installation with npm
+
+``` bash
+npm install ember-random-seed
+```
 
 ## Usage
 
